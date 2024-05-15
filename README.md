@@ -1,2 +1,2 @@
-# Graphql-Core_Course
+# Graphql_Course
 A study about Graph-core.
