@@ -1,6 +1,8 @@
 # BookGraphQL
 A sutdy demo uses GraphQL by programming node.js.
 
+In the demo, we use Mongodb connecting to AWS.
+
 For running Macbook M1 pro:
 
 ```
