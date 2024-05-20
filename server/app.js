@@ -13,7 +13,7 @@ app.use(cors());
 // connect to mlab database.
 // place mydb string & creds.
 
-mongoose.connect("mongodb+srv://quangtrandn93:JTFkXkNJaDlDtpvQ@cluster0.ntpafby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://quangtrandn93:<password>@cluster0.ntpafby.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 mongoose.connection.once('open',() => {
     console.log('connected to database')
 });
