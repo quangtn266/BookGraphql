@@ -1,19 +1,15 @@
-### npm on Macbook M1 pro (Serona)
-1. Install nvm.
+# Running React app
+1. Generate a React app.
+```
+npm install -g create-react-app
+```
+2. Generate your app.
 
-2. Install Node.js with nvm.
 ```
-nvm install <version>
-```
-
-3. Use node version.
-```
-nvm use <version>
+create-react-app <your_app_name>
 ```
 
-4. Install npm.
+3. After app generation, cd to <your_app_name> folder, then it types command for running your app.
 ```
-curl -L https://npmjs.org/install.sh | sh
+npm start
 ```
-
-Use version : 16
