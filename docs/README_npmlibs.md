@@ -1,17 +1,22 @@
 ### npm on Macbook M1 pro (Serona)
 1. Install nvm.
 
-2. Install Node.js with nvm.
+2. Source nvm
+```
+source ~/.nvm/nvm.sh
+```
+
+3. Install Node.js with nvm.
 ```
 nvm install <version>
 ```
 
-3. Use node version.
+4. Use node version.
 ```
 nvm use <version>
 ```
 
-4. Install npm.
+5. Install npm.
 ```
 curl -L https://npmjs.org/install.sh | sh
 ```
